@@ -39,3 +39,14 @@ nav a{
     padding: 7px 10px;
     border-radius: 5px;
 }
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.background{
+    height: 110vh;
+    background: url(woda.jpg);
+    
+    
+}
