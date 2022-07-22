@@ -50,3 +50,32 @@ a.active,a:hover{
     
     
 }
+.background ul{
+    top: 80px;
+    left: 20px;
+    min-height: 100%;
+    position: relative;
+    
+
+    
+}
+.background ul li{
+    position: relative;
+    width: 200px;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.background ul li:hover{
+    background: white;
+    transform: translateX(50px);
+
+}
+
+.background ul li a{
+    color: black;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+
+}
