@@ -6,7 +6,8 @@
 }
 
 body{
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    background: url(woda.jpg);
 }
 nav{
     height: 80px;
@@ -45,23 +46,17 @@ a.active,a:hover{
 }
 
 .background{
-    height: 110vh;
-    background: url(woda.jpg);
-    
-    
-}
-.background ul{
-    top: 80px;
-    left: 20px;
-    min-height: 100%;
-    position: relative;
-    
+    width: 200px;
 
+    height: 110vh;
+    
+    
     
 }
+
+
 .background ul li{
     position: relative;
-    width: 200px;
     background-color: skyblue;
     padding: 20px;
 }
