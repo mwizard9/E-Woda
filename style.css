@@ -74,3 +74,14 @@ a.active,a:hover{
     letter-spacing: 0.5em;
 
 }
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    background-color: skyblue;
+    
+    padding-top: 20px;
+  }
