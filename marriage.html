@@ -55,17 +55,23 @@ input[type=submit] {
           text-align: center;
           text-decoration: underline;
         }
+        h3{
+            text-decoration: underline;
+            font-size: 20px;
+            font-style: italic;
+        }
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birth Certificate</title>
+    <title>Marriage Certificate</title>
 </head>
 <body>
-    <h2>Birth Certificate</h2>
+    <h2>Marriage Certificate</h2>
 
 <form action="/">
     <div class="right">
+        <h3>For Husband</h3>
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" placeholder="First Name"><br>
   <label for="fname">Middle name:</label><br>
@@ -74,24 +80,39 @@ input[type=submit] {
   <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
   <label for="birthday">DOB</label><br>
   <input type="date" id="birthday" name="birthday" placeholder="Date of Birth"><br>
-  <label for="fname">Gender:</label><br>
-  <input type="radio" id="male" name="gender" value="Male">
-  <label for="html">Male</label><br>
-  <input type="radio" id="female" name="gender" value="Female">
-  <label for="css">Female</label><br>
-  <input type="radio" id="others" name="gender" value="Others">
-  <label for="javascript">Others</label><br>
+  <label for="fname">Father's name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Father's Name"><br>
+    <label for="fname">Mother's name:</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Mother's Name"><br>
+    <label for="fname"> Citizenship ID/No:</label><br>
+    <input type="text" id="fname" name="fname" placeholder=""><br>
+    <label for="img">Photo of Citizenship:</label>
+    <input type="file" id="img" name="img" accept="image/*"><br>
+    <label for="fname">Birth place:</label><br>
+    <input type="string" id="fname" name="fname" placeholder="Province">
+    <input type="string" id="fname" name="fname" placeholder="District">
+    <input type="string" id="fname" name="fname" placeholder="village/city"><br>
+ 
   <input type="submit" value="Submit">
 </div>
 
 <div class="left">
+    <h3>For Wife</h3>
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+  <label for="fname">Middle name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Middle Name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+  <label for="birthday">DOB</label><br>
+  <input type="date" id="birthday" name="birthday" placeholder="Date of Birth"><br>
     <label for="fname">Father's name:</label><br>
     <input type="text" id="fname" name="fname" placeholder="Father's Name"><br>
     <label for="fname">Mother's name:</label><br>
     <input type="text" id="fname" name="fname" placeholder="Mother's Name"><br>
-    <label for="fname">Marriage Certificate ID/No:</label><br>
+    <label for="fname"> Citizenship ID/No:</label><br>
     <input type="text" id="fname" name="fname" placeholder=""><br>
-    <label for="img">Photo of Marriage cetrificate:</label>
+    <label for="img">Photo of Citizenship:</label>
     <input type="file" id="img" name="img" accept="image/*"><br>
     <label for="fname">Birth place:</label><br>
     <input type="string" id="fname" name="fname" placeholder="Province">
